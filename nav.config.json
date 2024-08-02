@@ -1,0 +1,42 @@
+{
+  "public": [
+    {
+      "id": "Menu_SignIn",
+      "nav_url": "index.php?page=Sec_Login",
+      "nav_label": "<i class=\"fas fa-sign-in-alt\"></i>&nbsp;Iniciar Sesión",
+      "roles": [] 
+    },
+    {
+      "id": "Menu_SignUp",
+      "nav_url": "index.php?page=Sec_Register",
+      "nav_label": "<i class=\"fas fa-sign-in-alt\"></i>&nbsp;Crear Cuenta",
+      "roles": []
+    },
+    {
+      "id": "Menu_Catalogo",
+      "nav_url": "index.php?page=Productos_Productos",
+      "nav_label": "<i class=\"fas fa-sign-in-alt\"></i>&nbsp;Catálogo",
+      "roles": []
+    },
+    {
+      "id": "Tabla_Productos",
+      "nav_url": "index.php?page=Products_Products",
+      "nav_label": "<i class=\"fas fa-sign-in-alt\"></i>&nbsp;Productos",
+      "roles": [1]
+    },
+    {
+      "id": "Tabla_Usuarios",
+      "nav_url": "index.php?page=Usuarios_Usuarios",
+      "nav_label": "<i class=\"fas fa-sign-in-alt\"></i>&nbsp;Usuarios",
+      "roles": [1]
+    }
+  ],
+  "private": [
+    {
+      "id": "Menu_PaymentCheckout",
+      "nav_url": "index.php?page=Checkout_Checkout",
+      "nav_label": "Carretilla de Compra",
+      "roles": [1, 2]
+    }
+  ]
+}
